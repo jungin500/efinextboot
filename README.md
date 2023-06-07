@@ -1,6 +1,6 @@
 # EFINextBoot
-Reimplementation of [chengxuncc/booToLinux](https://github.com/chengxuncc/booToLinux) with zero-dependency in mind
-Using `bcdedit` to select the next time boot of UEFI: ```bcdedit /set {fwbootmgr} bootsequence {GUID}```
+Reimplementation of [chengxuncc/booToLinux](https://github.com/chengxuncc/booToLinux) with zero-dependency in mind  
+Using `bcdedit` internally to select the next time boot of UEFI: ```bcdedit /set {fwbootmgr} bootsequence {GUID}```
 
 ## What's new?
 - Faster launch speed
